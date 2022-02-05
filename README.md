@@ -99,8 +99,8 @@ module.exports = {
         type: Sequelize.STRING(100),
         allowNull: false,
       },
-      status: {
-        type: Sequelize.ENUM('PENDING', 'PROGRESS', 'DONE'),
+      flag: {
+        type: Sequelize.ENUM('active', 'completed'),
       },
       createdAt: Sequelize.DATEONLY,
       updatedAt: Sequelize.DATEONLY,
