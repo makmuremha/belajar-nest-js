@@ -126,8 +126,6 @@ module.exports = {
       flag: {
         type: Sequelize.ENUM('active', 'completed'),
       },
-      createdAt: Sequelize.DATEONLY,
-      updatedAt: Sequelize.DATEONLY,
     });
   },
 
