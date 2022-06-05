@@ -100,7 +100,7 @@ menjadi
 $ yarn migration:generate TodoTableCreate
 
 # gunakan npm
-$ yarn run migration:generate TodoTableCreate
+$ npm run migration:generate TodoTableCreate
 ```
 
 #### Make DB Table menggunakan migration
